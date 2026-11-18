@@ -1,0 +1,37 @@
+{
+  "brand": "Tiny Spanish",
+  "tagline": "Spanish, one tiny story at a time.",
+  "audience": "English-speaking absolute beginners, travelers, young adults and adults",
+  "variety": "neutral Latin American Spanish (no vosotros unless a lesson is explicitly about Spain)",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "start_level": "A1",
+  "formats": {
+    "reel": {
+      "aspect": "9:16",
+      "target_seconds": "45-60"
+    },
+    "short": {
+      "aspect": "9:16",
+      "max_seconds": 58
+    },
+    "long": {
+      "aspect": "16:9",
+      "minutes": "5-8"
+    },
+    "story": {
+      "aspect": "16:9"
+    }
+  },
+  "numbering": {
+    "instagram": "state/instagram.json",
+    "youtube": "state/youtube.json"
+  },
+  "tts": "edge-tts (free)",
+  "paid_services": false,
+  "hook_in_seconds": 3
+}

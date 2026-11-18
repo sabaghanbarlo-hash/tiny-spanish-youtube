@@ -1,0 +1,30 @@
+title: <Video title>
+episode: <YouTube episode number: counted separately from Instagram>
+level: A1
+objective: By the end you can <learning objective>
+cast: Emma, Mateo, Cami
+variety: latam
+
+[intro]
+Mateo: <Spanish> | <English>
+
+[story]
+Emma: <Spanish> | <English> | <pronunciation>
+Cami: <Spanish> | <English>
+
+[vocab]
+vocab: <Spanish> | <English> | <pronunciation>
+example: <Spanish> | <English>
+
+[grammar]
+grammar: <rule> | <simple English explanation>
+example: <Spanish> | <English>
+
+[listening]
+Mateo: <slow Spanish line for listening practice> | <English revealed after a pause>
+
+[quiz]
+quiz: <Question?> | <A> | <B> | <C> | <A/B/C> | <explanation>
+
+[conclusion]
+Santi: <closing line> | <English>

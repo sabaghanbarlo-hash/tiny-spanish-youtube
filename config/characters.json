@@ -1,0 +1,81 @@
+{
+  "cast": [
+    {
+      "id": "emma",
+      "name": "Emma Brooks",
+      "role": "The Beginner",
+      "age": 24,
+      "from": "Chicago, USA",
+      "voice": "es-US-PalomaNeural",
+      "voice_rate": "-12%",
+      "voice_pitch": "+2Hz",
+      "personality": "Curious, enthusiastic, a little anxious about mistakes. Asks the questions beginners really ask and celebrates small wins.",
+      "appearance": "Fair skin with light freckles, sandy-blonde ponytail with side-swept bangs, green eyes, warm open smile.",
+      "outfit": "Mint-green hoodie, light jeans, white sneakers, small backpack with a travel patch.",
+      "palette": {
+        "hoodie": "#7ED6B2",
+        "hair": "#D9B26F",
+        "jeans": "#7A9CC6",
+        "accent": "#FFF3D6"
+      }
+    },
+    {
+      "id": "mateo",
+      "name": "Mateo Ruiz",
+      "role": "The Native Speaker",
+      "age": 27,
+      "from": "Mexico City",
+      "voice": "es-MX-JorgeNeural",
+      "voice_rate": "-5%",
+      "voice_pitch": "+0Hz",
+      "personality": "Patient, funny, warm. Corrects Emma with a joke, never with embarrassment. Loves food and explains why people really say things.",
+      "appearance": "Warm brown skin, short dark wavy hair, light stubble, kind dark-brown eyes, relaxed grin.",
+      "outfit": "Terracotta button shirt with rolled sleeves over a cream tee, dark chinos, brown boots.",
+      "palette": {
+        "shirt": "#E2703A",
+        "hair": "#2B1D16",
+        "chinos": "#3B3A46",
+        "accent": "#F7E6CC"
+      }
+    },
+    {
+      "id": "cami",
+      "name": "Camila 'Cami' Torres",
+      "role": "The Funny Friend",
+      "age": 25,
+      "from": "Medellín, Colombia",
+      "voice": "es-CO-SalomeNeural",
+      "voice_rate": "+0%",
+      "voice_pitch": "+1Hz",
+      "personality": "Energetic, dramatic, chaotic in a lovable way. Creates funny misunderstandings, exaggerates reactions, always hungry.",
+      "appearance": "Tan skin, long dark hair in two high space buns with loose curls, bold red lipstick, big gold hoop earrings, expressive eyebrows.",
+      "outfit": "Magenta bomber jacket with a sunflower pin, yellow top, black high-waist pants, yellow sneakers.",
+      "palette": {
+        "jacket": "#D6336C",
+        "top": "#FFD43B",
+        "hair": "#1E1416",
+        "pants": "#26232B"
+      }
+    },
+    {
+      "id": "santi",
+      "name": "Santiago 'Santi' Herrera",
+      "role": "The Travel Guide",
+      "age": 30,
+      "from": "Bogotá, Colombia",
+      "voice": "es-CO-GonzaloNeural",
+      "voice_rate": "-3%",
+      "voice_pitch": "-1Hz",
+      "personality": "Calm, curious, always filming. Introduces travel situations, local culture and natural expressions. Dry humor.",
+      "appearance": "Medium-brown skin, tall and lean, curly dark hair with round sunglasses pushed up, short beard, small camera on a strap.",
+      "outfit": "Teal utility vest over a mustard tee, khaki shorts, hiking sandals.",
+      "palette": {
+        "vest": "#1F9FA8",
+        "tee": "#E0A526",
+        "hair": "#231A14",
+        "shorts": "#B9A27A"
+      }
+    }
+  ],
+  "note": "Voices are Microsoft Edge neural voices; confirm each voice name exists with `edge-tts --list-voices` when the render engine is wired in."
+}

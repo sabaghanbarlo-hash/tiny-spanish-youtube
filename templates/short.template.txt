@@ -1,0 +1,19 @@
+title: <Short title with a hook>
+episode: <Short number>
+level: A1
+kind: short
+scene: auto
+cast: Emma, Mateo
+
+[hook]
+Mateo: <Spanish> | <English>
+
+[story]
+Emma: <Spanish> | <English>
+Mateo: <Spanish> | <English>
+
+[practice]
+Mateo: <phrase to repeat> | Your turn! Say it out loud!
+
+[quiz]
+quiz: <Question?> | <A> | <B> | <C> | <A/B/C>
