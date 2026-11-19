@@ -1,0 +1,12 @@
+{
+  "paused": false,
+  "lookahead_hours": 48,
+  "min_lead_minutes": 20,
+  "timezone_note": "All times are UTC. 15:00Z = 10:00 US Eastern (EST); 23:00Z = 18:00 EST; 22:00Z = 17:00 EST; 16:00Z = 11:00 EST.",
+  "already_uploaded_private": [],
+  "items": [
+    {"kind": "short", "file": "01-introduce-yourself.txt", "publish_at": "2026-12-01T23:00:00Z", "title": "3 Spanish Phrases to Introduce Yourself"},
+    {"kind": "lesson", "file": "01-introducing-yourself.txt", "publish_at": "2026-12-02T15:00:00Z", "title": "Introducing Yourself"},
+    {"kind": "story", "file": "01-a-rainy-day-in-madrid.txt", "publish_at": "2026-12-03T15:00:00Z", "title": "Ep.1 A Rainy Day in Madrid"}
+  ]
+}

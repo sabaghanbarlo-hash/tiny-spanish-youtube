@@ -1,0 +1,14 @@
+title: 3 Spanish Phrases to Introduce Yourself
+scene: cafe
+cast: Emma, Mateo
+
+[hook]
+Mateo: ¿Quieres presentarte en español? | Want to introduce yourself in Spanish?
+[story]
+Emma: Sí. ¿Cómo me llamo? | Yes. How do I say my name?
+Mateo: Di: Me llamo Emma. | Say: My name is Emma.
+Emma: Me llamo Emma. | My name is Emma.
+Mateo: ¡Perfecto! Ahora: Mucho gusto. | Perfect! Now: Nice to meet you.
+Emma: Mucho gusto. | Nice to meet you.
+[ending]
+Emma and Mateo: ¡Hasta pronto! | See you soon!

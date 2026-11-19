@@ -1,0 +1,34 @@
+title: Introducing Yourself
+episode: ES1
+scene: cafe
+cast: Emma, Mateo
+
+[story]
+Mateo: ¡Hola! ¿Cómo te llamas? | Hi! What's your name?
+Emma: Me llamo Emma. ¿Y tú? | My name is Emma. And you?
+Mateo: Yo soy Mateo. Mucho gusto. | I'm Mateo. Nice to meet you.
+Emma: Mucho gusto. ¿De dónde eres? | Nice to meet you. Where are you from?
+Mateo: Soy de México. ¿Y tú? | I'm from Mexico. And you?
+Emma: Soy de Estados Unidos, pero vivo en Madrid. | I'm from the United States, but I live in Madrid.
+
+[vocab]
+vocab: ¿cómo te llamas? | what's your name? (to a friend) | KOH-moh teh YAH-mahs
+example: ¡Hola! ¿Cómo te llamas? | Hi! What's your name?
+vocab: me llamo… | my name is… | meh YAH-moh
+example: Me llamo Emma. | My name is Emma.
+vocab: mucho gusto | nice to meet you | MOO-choh GOO-stoh
+example: Mucho gusto, Mateo. | Nice to meet you, Mateo.
+vocab: ¿de dónde eres? | where are you from? | deh DOHN-deh EH-rehs
+example: ¿De dónde eres, Emma? | Where are you from, Emma?
+
+[grammar]
+grammar: Soy de + place | Use soy de with a city or country to say where you are from.
+example: Soy de México. | I'm from Mexico.
+example: Soy de Colombia. | I'm from Colombia.
+
+[quiz]
+quiz: How do you ask a friend their name? | ¿De dónde eres? | ¿Cómo te llamas? | ¿Cuántos años tienes? | B | ¿Cómo te llamas? literally asks how you call yourself.
+quiz: What does "soy de México" mean? | I'm from Mexico | I live in Mexico | I like Mexico | A | Soy de means "I am from".
+
+[ending]
+Emma and Mateo: ¡Hasta pronto! | See you soon!

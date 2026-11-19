@@ -1,0 +1,39 @@
+title: A Rainy Day in Madrid
+episode: 1
+scene: street
+cast: Emma, Mateo
+
+[story]
+> Emma enters left
+Emma: ¡Ay, no! ¡Está lloviendo! | Oh no! It's raining!
+> Mateo enters right
+Mateo: ¡Hola, Emma! ¿Tienes frío? | Hi, Emma! Are you cold?
+Emma: Sí, un poco. | Yes, a little.
+Mateo: Yo tengo un paraguas. ¡Ven! | I have an umbrella. Come!
+> Mateo opens the umbrella
+> Emma walks to next to Mateo
+Emma: ¡Gracias, eres muy amable! | Thank you, you are very kind!
+Mateo: ¡Vamos al café! | Let's go to the café!
+@scene cafe
+> both enter left
+Emma: Quisiera un chocolate caliente, por favor. | I would like a hot chocolate, please.
+> Emma looks happy
+Mateo: Y para mí, un café. | And for me, a coffee.
+
+[vocab]
+vocab: está lloviendo | it's raining | es-TAH yoh-vee-EN-doh
+example: Hoy está lloviendo. | It's raining today.
+vocab: un paraguas | an umbrella | oon pah-RAH-gwahs
+example: Tengo un paraguas. | I have an umbrella.
+
+[grammar]
+grammar: Tengo + noun | Use tengo to say what you have.
+example: Tengo un paraguas. | I have an umbrella.
+example: Tengo un hermano. | I have a brother.
+
+[quiz]
+quiz: What does "está lloviendo" mean? | It's raining | It's snowing | It's sunny | A | Llover is the verb "to rain".
+quiz: How do you say "umbrella" in Spanish? | Un sombrero | Un paraguas | Un café | B | Un paraguas is an umbrella.
+
+[ending]
+Emma and Mateo: ¡Hasta pronto! | See you soon!

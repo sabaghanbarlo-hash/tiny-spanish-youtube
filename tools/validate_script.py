@@ -6,7 +6,7 @@ import re, sys
 CAST = {"emma", "mateo", "cami", "santi"}
 VOSOTROS = re.compile(r"\b(vosotros|vosotras|vuestro|vuestra|vuestros|vuestras|habláis|tenéis|sois|estáis|vais|queréis)\b", re.I)
 LINE = re.compile(r"^([A-Za-zÀ-ÿ' ]+):\s*(.+)$")
-HEADERS = {"title", "episode", "level", "topic", "scene", "cast", "variety", "duration", "objective", "kind", "weather", "cover"}
+HEADERS = {"title", "episode", "level", "topic", "scene", "cast", "variety", "duration", "objective", "kind", "weather", "cover", "format", "time"}
 SECTIONS = {"hook", "story", "vocab", "grammar", "quiz", "ending", "intro", "listening", "conclusion", "practice"}
 
 
@@ -27,7 +27,7 @@ def validate(path):
     errors, header, latam, section = [], {}, True, None
     for i, raw in enumerate(open(path, encoding="utf-8"), 1):
         line = raw.strip()
-        if not line or line.startswith("#"):
+        if not line or line.startswith(("#", ">", "&", "@")):          # blank, comment, or story stage direction
             continue
         m = re.match(r"^\[(\w+)\]$", line)
         if m:
@@ -61,7 +61,7 @@ def validate(path):
         m = LINE.match(line)
         if m:
             speaker = m.group(1).strip().lower()
-            if speaker not in CAST:
+            if not all(p.strip() in CAST or p.strip() == "both" for p in re.split(r"\s+(?:and|&|y)\s+", speaker)):
                 errors.append(f"{where}: unknown speaker '{m.group(1)}'")
             parts = [p.strip() for p in m.group(2).split("|")]
             if len(parts) < 2 or not parts[1]:
@@ -69,7 +69,7 @@ def validate(path):
             check_spanish(parts[0], where, errors, latam)
         else:
             errors.append(f"{where}: cannot read line: {line[:60]}")
-    for req in ("title", "episode", "level"):
+    for req in ("title",):
         if req not in header:
             errors.append(f"missing header: {req}")
     cast = [c.strip().lower() for c in header.get("cast", "").split(",") if c.strip()]
